@@ -13,9 +13,10 @@ The repository includes MATLAB `.m` files implementing different components of t
 - **Snow module** – snow_degree.m - handles snow accumulation and melt processes  
 - **Soil moisture module** – sma_pd3.m - probability-distributed storage capacity for soil accounting  
 - **Routing module** – r_2par.m - two parallel linear reservoirs for streamflow routing  
-- **Performance metrics** – NSE.m, abias.m -functions for calculating Nash-Sutcliffe Efficiency (NSE), absolute bias, etc.  
-- **Parameter handling** – lhcube.m, Step0input.m, and info.mat  functions for model parameters  
-- **Reservoir module** – r_cres.m - simulation of conceptual reservior behavior  
+- **Performance metrics** – NSE.m, and abias.m - functions for calculating Nash-Sutcliffe Efficiency (NSE), absolute bias, etc.  
+- **Parameter handling** – lhcube.m, Step0input.m, and info.mat - functions for model parameters  
+- **Reservoir module** – r_cres.m - simulation of conceptual reservoir behavior
+- **Info files** –  information about modules
 
 ---
 
@@ -33,4 +34,4 @@ The repository includes MATLAB `.m` files implementing different components of t
 ## ▶️ How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Thorsten1971/pdm-matlab.git
+   git clone https://github.com/thorsten1971/pdm-matlab.git
