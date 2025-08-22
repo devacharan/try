@@ -8,7 +8,7 @@ The implementation follows the concepts described in:
 
 ---
 
-## 📂 Repository Contents
+## Contents
 The repository includes MATLAB `.m` files implementing different components of the model:
 - **Snow module** – snow_degree.m - handles snow accumulation and melt processes  
 - **Soil moisture module** – sma_pd3.m - probability-distributed storage capacity for soil accounting  
@@ -20,7 +20,7 @@ The repository includes MATLAB `.m` files implementing different components of t
 
 ---
 
-## ⚙️ Model Inputs and Outputs
+## Model Inputs and Outputs
 - **Inputs**:  
   - Daily precipitation  
   - Daily temperature  
@@ -31,7 +31,7 @@ The repository includes MATLAB `.m` files implementing different components of t
 
 ---
 
-## ▶️ How to Use
+## How to Use
 1. Clone the repository:
    ```bash
    git clone https://github.com/thorsten1971/pdm-matlab.git
