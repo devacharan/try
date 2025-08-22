@@ -1,4 +1,4 @@
-# Probability Distributed Model (PDM) – MATLAB Implementation
+# PDM - Probability Distributed Model – MATLAB Implementation
 
 This repository contains a MATLAB implementation of the **Probability Distributed Moisture (PDM) model**, a lumped conceptual hydrological model. The model is based on the probability distribution of storage capacity for soil moisture accounting, linked to a routing component consisting of two parallel linear reservoirs.  
 
