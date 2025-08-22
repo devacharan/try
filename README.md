@@ -5,18 +5,17 @@ This repository contains a MATLAB implementation of the **Probability Distribute
 The implementation follows the concepts described in:  
 - Moore, R. J. (1985), *The probability-distributed principle and runoff production at point and basin scales*, Hydrological Sciences Journal.  
 - Moore, R. J. (2007), *The PDM rainfall–runoff model*, Hydrology and Earth System Sciences.  
-- Boyle, D. P. (2000), *Multicriteria calibration of hydrological models*, PhD Thesis, University of Arizona.  
 
 ---
 
 ## 📂 Repository Contents
 The repository includes MATLAB `.m` files implementing different components of the model:
-- **Snow module** – handles snow accumulation and melt processes  
-- **Soil moisture module** – probability-distributed storage capacity for soil accounting  
-- **Routing module** – two parallel linear reservoirs for streamflow routing  
-- **Performance metrics** – functions for calculating Nash-Sutcliffe Efficiency (NSE), absolute bias, etc.  
-- **Parameter handling** – functions for model parameters  
-- **Reservoir module** – simulation of reservoir behavior  
+- **Snow module** – snow_degree.m - handles snow accumulation and melt processes  
+- **Soil moisture module** – sma_pd3.m - probability-distributed storage capacity for soil accounting  
+- **Routing module** – r_2par.m - two parallel linear reservoirs for streamflow routing  
+- **Performance metrics** – NSE.m, abias.m -functions for calculating Nash-Sutcliffe Efficiency (NSE), absolute bias, etc.  
+- **Parameter handling** – lhcube.m, Step0input.m, and info.mat  functions for model parameters  
+- **Reservoir module** – r_cres.m - simulation of conceptual reservior behavior  
 
 ---
 
