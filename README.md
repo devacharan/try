@@ -33,4 +33,4 @@ The repository includes MATLAB `.m` files implementing different components of t
 ## ▶️ How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pdm-matlab.git
+   git clone https://github.com/Thorsten1971/pdm-matlab.git
